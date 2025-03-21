@@ -8,15 +8,19 @@
 body{
     width: 100vw;/* full width எடுத்துக்கும்*/
     height: 100vh;
-    display: flex;/*content horizondal form மாரும்*/
-    justify-content: center;/*all content-ம் center-ல வந்திடும்*/
+    display: flex;
+    justify-content: center;/*all content-ம் horizontal direction center-ல வந்திடும்*/
     align-items: center;/*கீழே mid center-ல வரும்*/
     flex-direction: column;/* 1 by 1 column direction-அ இருக்கும்*/
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../CSS/images/img.jpg');
     color:white;
-    background-size: cover;
+    background-size: cover;/*this image cover*/
     background-position: center;
   
+}
+body.dark-mode{
+    background:#121212;
+    color: white;
 }
 .counter{
     display: flex;/* row and correct-அ மாரிடும்*/
